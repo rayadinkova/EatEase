@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --daily-log: rgba(249, 248, 255, 1);
+  --add-symptoms: rgba(237, 242, 254, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Add Daily Log Header */
+
+.add-log-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;  
+}
+
+.add-log-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-log-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 72px;
+}
+
+/* Add Daily Log Content */
+
+.hunger-fullness-scale-background{
+    width: 23.8rem;
+    height: 25rem;
+    margin-left: -1.5rem;
+    background-color: var(--daily-log);
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.hunger-fullness-scale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.add-log-h2{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.add-log-p{
+    color: var(--navy-blue);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: -8px;
+}
+
+.add-daily-log-questions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.add-log-h3{
+    color: var(--navy-blue);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.what-did-you-eat-inputfield{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    border: 1px solid var(--grey) ;
+    color: black;
+}
+
+.camera-icon{
+    width: 108px;
+}
+
+.add-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 16px;
+    margin-bottom: -8px;
+}
+
+.add-photo-p{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+.eaten-quantity-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.eaten-quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--navy-blue);
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.meal-mindfulness-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.meal-mindfulness{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--navy-blue);
+    width: 108px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.daily-log-questions-input{
+    padding: 12px;
+    background-color: white;
+    border: 1px solid var(--grey) ;
+    color: black;
+}
+
+.symptoms-p{
+    color: var(--navy-blue);
+    margin-top: -8px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.add-symptoms-btn{
+    color: var(--navy-blue);
+    background-color: var(--add-symptoms);
+    width: 324px;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px dashed var(--navy-blue);
+    margin-top: 8px;
+}
+
+.add-daily-log-submit-btn{
+    width: 140px;
+    height: 56px;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}

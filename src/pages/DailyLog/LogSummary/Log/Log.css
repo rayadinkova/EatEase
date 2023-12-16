@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --daily-log: rgba(249, 248, 255, 1);
+}
+
+.log-h2{
+    font-size: 40px;
+    color: var(--navy-blue);
+}

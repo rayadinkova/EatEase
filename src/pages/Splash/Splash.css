@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.splash{
+    display: flex;
+    justify-content: center;
+    margin-top: 188px;
+  }
+  
+  .splash-graphics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 12rem;
+  }
+  
+  .splash-h1{
+    text-decoration: none;
+    color: var(--navy-blue);
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .background-graphics{
+    display: none;
+    position: absolute;
+    margin-top: -14rem;
+  }
+

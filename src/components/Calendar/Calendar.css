@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --daily-log: rgba(249, 248, 255, 1);
+  --calendar: rgb(192, 200, 228);
+}
+
+.calendar-container {
+    width: 100%;
+    max-width: 372px;
+    margin: auto;
+   
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navy-blue);
+  }
+  
+  .calendar-header button {
+    font-size: 14px;
+  }
+  
+  .calendar-header h2 {
+    font-size: 16px;
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--calendar);
+  }
+  
+  .calendar-week {
+    display: flex;
+  }
+  
+  .calendar-day {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #eceaf1;
+    font-size: 16px;
+    color: var(--navy-blue);
+  }
+  
+  .empty-cell {
+    flex: 1;
+  }
+  

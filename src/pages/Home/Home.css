@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --log: rgb(238, 237, 250);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.home-h1{
+    color: var(--navy-blue);
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0;
+}
+
+.home-p{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -12px;
+    text-align: left;
+}
+
+.daily-log-section{
+    margin-top: 0;
+}
+
+.daily-log-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.daily-log-h2{
+    color: var(--navy-blue);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.daily-log-icon{
+    margin-right: 8px;
+}
+
+.daily-log-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.daily-log-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--log);
+    width: 100%;
+    margin-left: 8px;
+    border-radius: 32px;
+    padding: 20px;
+}
+
+.what-did-you-eat{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.home-submit-link{
+    text-decoration: none;
+}
+
+.home-submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 140px;
+    height: 56px;
+    margin-top: 32px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.daily-log-summary-link{
+    text-decoration: none;
+}
+
+.daily-log-summary{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wellness-journal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-h2{
+    color: var(--navy-blue);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.learn-more-p{
+    margin-top: 24px;
+}
+
+.learn-more-link{
+    text-decoration: none;
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -8px;
+}
+
+.tools-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.tools-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.tools-cta img{
+    width: 164px;
+    margin-bottom: 8px;
+}
+
+.home-h3{
+    color: white;
+    margin-top: -56px;
+    font-size: 20px;
+}
+
+.home-h3-resons{
+    color: var(--navy-blue);
+    margin-top: -3rem;
+    width: 108px;
+    text-align: center;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 24px;
+    font-size: 20px;
+}
+
+.discover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-p{
+    margin-bottom: 96px;
+    color: var(--navy-blue);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0;
+}

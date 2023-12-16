@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Mood Header */
+
+.mood-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.mood-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mood-question{
+    margin-right: 24px;
+    width: 32px;
+}
+
+.mood-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.mood-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+
+/* Mood Content */
+
+.mood-content{
+    margin-top: 48px;
+}
+
+.sleep-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mood-h2{
+    color: var(--navy-blue);
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.sleep-icon{
+    margin-top: 16px;
+}
+
+.sleep-title img{
+    margin-left: 16px;
+}
+
+.mood-h3{
+    color: var(--navy-blue);
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 32px;
+}
+
+.mood-p{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -16px;
+}
+
+.nutrition-p{
+    margin-bottom: 96px;
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -16px;
+}
+
+.sleep-tips{
+    text-align: left;
+}
+
+.nutrition-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nutrition-icon{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.nutrition-tips{
+    text-align: left;
+}
+
+.mood-h3-meals{
+    color: var(--navy-blue);
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 16px;
+}

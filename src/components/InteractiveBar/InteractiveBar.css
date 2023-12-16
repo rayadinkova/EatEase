@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --daily-log: rgba(249, 248, 255, 1);
+}
+
+.interactive-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.bar-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    background-color: var(--navy-blue);
+}
+
+.littlehungry{
+    width: 108px;
+}
+
+.content-container{
+    color: var(--navy-blue);
+    font-size: 16px;
+    margin-top: 32px;
+    width: 80%;
+}
+
+.scale-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scale-h1{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.scale-p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}

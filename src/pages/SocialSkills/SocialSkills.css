@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Social Skills Header */
+
+.social-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.social-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-question{
+    margin-right: 24px;
+    width: 32px;
+}
+
+.social-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.social-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+/* Social Skills Content */
+
+.social-content{
+    margin-top: 72px;
+}
+
+.social-h2{
+    color: var(--navy-blue);
+}
+
+.social-p{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -24px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.social-p-last{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -24px;
+    margin-bottom: 88px;
+    text-align: left;
+}

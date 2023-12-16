@@ -1,0 +1,22 @@
+/* Carousel */
+.item{
+    min-height: 16px;
+    min-width: 264px;
+    margin-left: -16px;
+}
+
+.item img{
+    width: 85%;
+    height: 100%;
+    border-radius: 32px;
+    pointer-events: none;
+}
+
+.carousel-inner{
+    display: flex;
+}
+
+.carousel-main{
+    cursor: grab;
+    overflow: hidden;
+}

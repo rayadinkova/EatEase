@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-graphics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 124px;
+  }
+
+  .registration-h1{
+    margin-top: 0;
+  }
+
+  .sign-in-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 208px;
+    height: 72px;
+    margin-top: 32px;
+  }
+  
+  .sign-in-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .sign-up-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 208px;
+    height: 72px;
+    margin-top: 32px;
+    margin-top: 16px;
+  }
+  
+  .sign-up-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }

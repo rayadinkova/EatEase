@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Sign Up Header */
+
+.sign-up-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-header{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.sign-up-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.sign-up-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+/* Sign Up Content */
+
+.sign-up-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+.sign-up-input-field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 132px;
+}
+
+input{
+    width: 308px;
+    height: 32px;
+    background-color: white;
+    border: 1.5px solid var(--navy-blue);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.sign-up-email{
+    margin-bottom: 16px;
+}
+
+.sign-up-h3{
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.consent{
+    margin-top: -40px;
+}
+
+.sign-in-privacy{
+    color: var(--navy-blue);
+    font-size: 20px;
+}
+
+.sign-in-terms{
+    color: var(--navy-blue);
+    font-size: 20px;
+}
+
+.sign-up-page-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 208px;
+    height: 72px;
+    margin-top: 16px;
+  }
+  
+  .sign-up-page-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }

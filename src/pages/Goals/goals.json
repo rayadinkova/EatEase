@@ -1,0 +1,14 @@
+{
+    "goal1":{
+        "description": "Goal 1: To not skip beakfast"
+    },
+    "goal2":{
+        "description": "Goal 2: To go out and socialize at least twice per month"
+    },
+    "goal3":{
+        "description": "Goal 3: To not weight myself for a month"
+    },
+    "goal4":{
+        "description": "Goal 4: To spend only an hour per day in social media"
+    }
+}

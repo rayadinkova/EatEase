@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --popup: rgba(242, 236, 253, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.submit-daily-log-btn{
+    font-size: 20px;
+    width: 140px;
+    height: 56px;
+    margin-top: 32px;
+}
+
+.log-submit-popup-container{
+    height: 100vh;
+}
+
+.log-submit-popup{
+    position: absolute;
+    background-color: var(--popup);
+    border: 1.5px solid var(--navy-blue);
+    border-radius: 32px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -616px;
+    margin-right: 16px;
+    padding: 40px;
+}
+
+.log-submit-popup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.log-submit-popup-h1{
+    color: var(--navy-blue);
+    font-size: 32px;
+}
+
+.log-submit-popup-p{
+    color: var(--navy-blue);
+    font-size: 20px;
+}
+
+.log-submit-popup-close-link{
+    text-decoration: none;
+}
+
+.log-submit-popup-close-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 156px;
+    height: 56px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.skip{
+  position: absolute;
+  color: var(--navy-blue);
+  font-size: 24px;
+  margin-left: 272px;
+  margin-top: -21px;
+  text-decoration: none;
+}
+
+.self-awareness-onboarding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 208px;
+}
+
+.selfawarenessicon{
+    position: absolute;
+    margin-bottom: 340px;
+    width: 108px;
+}
+
+.self-awareness-onboarding-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--onboarding-container);
+    border-radius: 32px;
+    padding: 32px;
+}
+
+.self-awareness-h1{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.self-awareness-h2{
+    width: 18rem;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0;
+}
+
+.self-awareness-cta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.self-awareness-prev-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+.self-awareness-prev-link{
+  text-decoration: none;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.self-awareness-next-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  margin-top: 24px;
+  gap: 8px;
+}
+
+.self-awareness-next-link{
+text-decoration: none;
+color: white;
+font-family: 'Dosis', sans-serif;
+font-weight: 500;
+font-size: 20px;
+}

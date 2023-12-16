@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+  --navbar-bg: rgba(235, 241, 255, 1);
+  --grey: rgba(58, 58, 58, 1);
+  --daypicker: rgba(116, 117, 142, 1);
+}
+
+.daypicker-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+label{
+    font-size: 20px;
+    color: var(--navy-blue);
+    text-align: left;
+}
+
+select{
+    width: 132px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 32px;
+    color: white;
+    background-color: var(--daypicker);
+    font-size: 16px;
+    margin-left: 16px;
+}

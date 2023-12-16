@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --onboarding-container: rgba(82, 106, 152, 0.9);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.welcome-onboarding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+}
+
+.logo-onboarding{
+    position: absolute;
+    margin-bottom: 540px;
+    width: 180px;
+}
+
+.welcome-onboarding-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--onboarding-container);
+    border-radius: 32px;
+    padding: 32px;
+}
+
+.welcome-onboarding-h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.welcome-onboarding-h2{
+    width: 18rem;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.heart{
+    width: 32px;
+    margin-top: 8px;
+}
+
+.welcome-onboarding-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+.welcome-onboarding-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+

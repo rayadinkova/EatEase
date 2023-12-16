@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Profile Header */
+
+.profile-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;  
+}
+
+.profile-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-question{
+    margin-right: 24px;
+    width: 32px;
+}
+
+.profile-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.profile-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+
+/* Profile Content */
+
+.profile-content{
+    text-align: left;
+    margin-top: 72px;
+}
+
+.profile-h2{
+    color: var(--navy-blue);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.basic-info{
+    margin-top: -8px;
+}
+
+.subtext{
+    color: var(--navy-blue);
+    font-size: 16px;
+    margin-bottom: -24px;
+    margin-top: -8px;
+}
+
+.profile-basicinfo-h3{
+    font-size: 24px;
+    color: var(--navy-blue);
+    font-weight: 500;
+}
+
+.profile-section-title-h3{
+    font-size: 32px;
+    color: var(--navy-blue);
+    margin-top: 8px;
+}
+
+.profile-notifications{
+    display: flex;
+    flex-direction: column;
+}
+
+.notifications-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-h3{
+    color: var(--navy-blue);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -16px;
+}
+
+.notifications-settings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-h4{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.notifications-settings-icon{
+    width: 12px;
+    margin-top: -40px;
+}
+
+.profile-p-notifications{
+    color: var(--navy-blue);
+    font-size: 20px;
+    margin-top: -16px;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy-icon{
+    width: 12px;
+    margin-top: -40px;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-icon{
+    width: 12px;
+    margin-top: -40px;
+}
+
+.delete-profile-h3{
+    color: brown;
+    font-size: 24px;
+    margin-top: -8px;
+    margin-bottom: 80px;
+}
+
+.profile-links{
+    margin-top: -24px;
+}
+

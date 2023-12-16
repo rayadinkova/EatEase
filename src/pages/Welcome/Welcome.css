@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.hello-icon{
+    width: 80px;
+}
+
+.welcome-h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--navy-blue);
+}
+
+.welcome-h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--navy-blue);
+    margin-top: 0;
+    text-align: center;
+}
+
+.get-started-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navy-blue);
+    border: none;
+    border-radius: 40px;
+    width: 180px;
+    height: 72px;
+    margin-top: 32px;
+  }
+  
+  .get-started-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }

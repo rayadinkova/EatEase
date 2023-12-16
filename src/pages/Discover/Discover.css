@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Discover Header */
+
+.discover-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.discover-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-question{
+    margin-right: 24px;
+    width: 32px;
+}
+
+.discover-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.discover-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}

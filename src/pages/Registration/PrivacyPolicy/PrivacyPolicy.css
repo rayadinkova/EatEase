@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Privacy Header */
+
+.privacy-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy-header{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.privacy-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.privacy-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+/* Privacy Content */
+
+.privacy-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--navy-blue);
+    margin-top: 72px;
+}
+
+.privacy-p{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.privacy-p-types{
+    text-align: left;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+h1, h2{
+    text-align: left;
+    font-size: 32px;
+}
+
+ul li{
+    text-align: left;
+}

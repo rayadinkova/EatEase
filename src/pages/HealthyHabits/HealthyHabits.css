@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+:root{
+  --navy-blue: rgba(29, 59, 95, 1);
+  --header: rgba(242, 236, 253, 0.5);
+}
+
+/* Making sure the elements order in the style sheets follow that of the html
+to ensure proper functionality and accessibility */
+
+/* Healthy Habits Header */
+
+.habits-header{
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--header) ;
+    width: 100%;
+}
+
+.habits-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.habits-question{
+    margin-right: 24px;
+    width: 32px;
+}
+
+.habits-arrow-img{
+    color: var(--navy-blue);
+    width: 12px;
+    margin-left: 24px;
+}
+
+.h-habits-h1{
+    color: var(--navy-blue);
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+
+/* Healthy Habits Content */
+
+.habits-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 108px 0 32px 0;
+    border-bottom: 1px solid white
+}
+
+.habits-icon{
+    width: 48px;
+}
+
+.habits-link{
+    text-decoration: none;
+}
+
+.habits-h1{
+    color: var(--navy-blue);
+    font-size: 24px;
+    margin: 0;
+    padding: 16px;
+}
+
+.habits-h1{
+    text-decoration: none;
+    color: var(--navy-blue);
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.habits-h1-skills{
+    text-decoration: none;
+    color: var(--navy-blue);
+    font-size: 24px;
+    width: px;
+    text-align: center;
+}
